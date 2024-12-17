@@ -46,7 +46,16 @@ VALUES ('Gwen Apuli', 'gwenapuli@gmail.com');
 
 INSERT INTO ticket (ticket_type, price, event_day, seat_number, customer_id, payment_method)
 VALUES ('PATRON A', 8000, 2, 3, 8, "Credit Card"),
-	   ('PATRON A', 8000, 2, 4, 8, "Credit Card");
+	('PATRON A', 8000, 2, 4, 8, "Credit Card");
 
 INSERT INTO payment (customer_id, payment_method, total_amount, payment_date)
 VALUES (8, 'Credit Card', 16000, NOW());
+
+INSERT INTO customer (customer_name, customer_email)
+VALUES ('Andrei Panganiban', 'andrei@gmail.com');
+
+INSERT INTO ticket (ticket_type, price, event_day, seat_number, customer_id, payment_method)
+VALUES ('VIP', 11000, 2, 20, 10, "Credit Card");
+
+INSERT INTO payment (customer_id, payment_method, total_amount, payment_date)
+VALUES (10, 'Credit Card', 11000, NOW());
