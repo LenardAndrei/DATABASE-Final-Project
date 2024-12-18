@@ -17,9 +17,9 @@ public class AdvancedTicketSystem {
             System.out.println("Welcome to Grand BINIverse Ticket Selling System!");
             System.out.println();
             System.out.println("Available concert days are:");
-            System.out.println("   1. Day 1 (November 16, 2024)");
-            System.out.println("   2. Day 2 (November 17, 2024)");
-            System.out.println("   3. Day 3 (November 18, 2024)");
+            System.out.println("   1. Day 1 (January 16, 2025)");
+            System.out.println("   2. Day 2 (January 17, 2025)");
+            System.out.println("   3. Day 3 (January 18, 2025)");
             System.out.println("You can only choose one concert day per transaction.");
             System.out.println();
             System.out.println("Ticket Types and Prices:");
